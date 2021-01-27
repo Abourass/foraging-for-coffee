@@ -4,14 +4,15 @@
   "description": "Local Forage for Coffee Math",
   "main": "index.js",
   "scripts": {
-    "start": "snowpack dev"
+    "start": "snowpack dev",
+    "build": "snowpack build"
   },
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "snowpack": "^3.0.11"
-  },
+  "license": "MIT",
   "dependencies": {
     "localforage": "^1.9.0"
+  },
+  "devDependencies": {
+    "snowpack": "^3.0.11"
   }
 }
