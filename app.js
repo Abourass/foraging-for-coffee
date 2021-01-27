@@ -1,4 +1,4 @@
-import localforage from 'localforage';
+import localforage from './_snowpack/pkg/localforage.js';
 
 const save = async(key, value) => localforage.setItem(key, value);
 const load = async(key) => localforage.getItem(key);
